@@ -754,7 +754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skills:
   - {fileID: 1288067948628874959, guid: 9176cfa8adb391e4aa14e82003ee8625, type: 3}
-  skillsParent: {fileID: 0}
+  skillsParent: {fileID: 360448311}
 --- !u!4 &1429286621
 Transform:
   m_ObjectHideFlags: 0
