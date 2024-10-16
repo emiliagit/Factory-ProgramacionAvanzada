@@ -6,7 +6,11 @@ public class SkillManager : MonoBehaviour
 {
     public SkillsDictionary skillFactory;
     [SerializeField] private Transform player;
-    
+
+    private void Awake()
+    {
+        FindAnyObjectByType(typeof(SkillsDictionary));
+    }
 
     public void ActivateSkill(string skillName)
     {
